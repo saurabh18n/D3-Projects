@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <title></title>
+  <script src="d3.v5.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="overflow: auto;">
+  <div class="" style="width: 100%; height: 650px; text-align: center;;">
+    <div id="cont1" style="display: block">
+      <svg></svg>
+    </div>
+    <div style="display:block;height:200px;text-align: left;padding:10px;">
+      <span style="vertical-align: middle;">
+        <input type="text" id="filterText" placeholder="Search" style="margin-bottom: 10px;">
+      </span>
+
+      <div class="row align-items-center" id="CerealsList">
+
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; height: 600px;vertical-align: top;text-align: center;margin: 0px;padding:0px;display: table-row;">
+    <div id="cont2" style="width: 60%;height:600px; display:table-cell;">
+      <svg width="800" height="600"></svg>
+    </div>
+    <div id="cont2Filter" style="width: 39%;display:table-cell;vertical-align: top;">
+      <h1>Top Cereals</h1>
+      <select id="top10"></select>
+      <select id="count">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+  </div>
+  <div class="" style="width: 100%;height: 700px; text-align: center;display:table-row;">
+    <div id="cont3Div" style="display: table-cell; width: 60%;">
+      <svg width="800" height="600" id="cont3"></svg>
+    </div>
+    <div id="cont3Filter" style="display:table-cell;vertical-align: top;width: 39%;height: 80%;text-align:center;">
+      <p>
+        <h3>Calories vs</h3><select type="text" id="selectY"></select>
+        <div id="filterPs"></div>
+      </p>
+    </div>
+  </div>
+  <script type="text/javascript" src="index.js" />
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.provience {
+  stroke: black;
+  stroke-width: 0.05px;
+}
+.stop-left {
+  stop-color: #fff5f0;
+}
+.stop-right {
+  stop-color: #67000d;
+}

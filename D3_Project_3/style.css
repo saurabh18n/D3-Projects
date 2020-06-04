@@ -1,0 +1,72 @@
+.crossline {
+  stroke: gray;
+  stroke-width: 1;
+}
+
+.tick text {
+  font-size: 2em;
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.axis-label {
+  font-size: 2em;
+  fill: #8e8883;
+}
+
+.title {
+  font-size: 3em;
+  fill: #635f5d;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.circle_subVsYear {
+  fill: steelblue;
+}
+
+.actorLabel {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  background-color: #e2eef5;
+}
+.actorSelected {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  background-color: green;
+}
+.wctext {
+  fill: goldenrod;
+}
+.wctext:hover {
+  fill: rgb(2, 59, 2);
+}
+.testb {
+  border: solid black 1px;
+}
+.moviepara {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: rgb(243, 202, 243);
+  margin: 5px;
+}

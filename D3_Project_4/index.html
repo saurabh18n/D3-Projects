@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title></title>
+  <script src="d3.v5.min.js"></script>
+  <script src="d3cloud.js"></script>
+  <script src="d3.slider.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="overflow: auto;">
+  <div class="" style="width: 100%; height: 650px; text-align: center; display: block;">
+    <h2>Fund Size and 3 Month Return</h2>
+    <div id="cont1" style="display: inline-block; width: 60%;">
+      <svg width="800" height="550"></svg>
+    </div>
+    <div class="" style="display:inline-block;vertical-align:top;margin-left: 10px;width: 38%; height: 80%;">
+      <h2>Net Assets Range</h2>
+      <div class="row align-items-center">
+        <div class="col-sm-2">
+          <p id="value-range"></p>
+        </div>
+        <div class="col-sm">
+          <div id="slider-range"></div>
+        </div>
+        <div id="cont1Filter" style="text-align: left;padding-left: 50px;"></div>
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; height: 600px;vertical-align: top;text-align: center;margin: 0px;padding:0px;display: table-row;"
+    class="testb">
+    <div id="cont2" style="width: 60%;height:600px; display:table-cell;" class="testb">
+      <svg width="800" height="600"></svg>
+    </div>
+    <div id="cont2Filter" class="testb" style="width: 39%;display:table-cell;vertical-align: top;">
+      <h1>Select Perameter</h1>
+      <select id="top10"></select>
+      <select id="count">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+  </div>
+  <div class="" style="width: 100%;height: 700px; text-align: center;display:table-row;">
+    <div id="cont3Div" style="display: table-cell; width: 60%;">
+      <svg width="800" height="500" id="cont3"></svg>
+    </div>
+    <div id="cont3Filter" class="testb"
+      style="display:table-cell;vertical-align: top;width: 39%;height: 80%;text-align: left;margin-left: 30px;;">
+      <p>
+        <h3>Compare Funds</h3><select type="text" id="fundSearch"></select>
+        <div id="filterPs"></div>
+      </p>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="index.js" />
+  </body>
+</html>

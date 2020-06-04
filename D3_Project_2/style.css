@@ -1,0 +1,53 @@
+.testborder {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.crossline {
+  stroke: gray;
+  stroke-width: 1;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+.tick text {
+  font-size: 2em;
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.axis-label {
+  font-size: 2em;
+  fill: #8e8883;
+}
+
+.title {
+  font-size: 3em;
+  fill: #635f5d;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}

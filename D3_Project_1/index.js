@@ -15,7 +15,7 @@ g.append("text")
   .attr("class", "title")
   .attr("x", 10)
   .attr("y", 15)
-  .text(" Location and Tnfected");
+  .text(" Location and Infected");
 
 const rander1 = (data) => {
   const colour1 = "blue";

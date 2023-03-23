@@ -19,6 +19,20 @@
 ## Screenshoots
 
 1.
-![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/1.png "a title")
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/1.png "1")
+2.
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/2_1.png "1")
+
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/2_2.png "1")
+
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/2_3.png "1")
+
+3.
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/3_1.png "1")
+
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/3_2.png "1")
+
+![Alt text](https://github.com/saurabh18n/D3-Projects/blob/master/images/3_3.png "1")
+
 
 

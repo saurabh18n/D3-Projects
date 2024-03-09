@@ -440,7 +440,7 @@ const renderCompare = (data) => {
 };
 
 //#endregion
-d3.csv("DS/a1-mutualfunds.csv").then((data) => {
+d3.csv("/DS/a1-mutualfunds.csv").then((data) => {
   data.map((d) => {
     d.YTD = +d.YTD;
     d._3MO = +d._3MO;
